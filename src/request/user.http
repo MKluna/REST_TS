@@ -1,0 +1,31 @@
+@api=http://localhost:4000/api/users
+
+###
+GET {{api}}
+
+###
+GET {{api}}/6101b807b75c51de31886061
+
+###
+POST {{api}}
+content-type: application/json
+
+{
+  "name": "test-name-mk",
+  "email": "testmk@test.com",
+  "password": "test123mk",
+  "username": "testmk"
+}
+
+###
+PUT {{api}}/6101b807b75c51de31886061
+content-type: application/json
+
+{
+  "posts": [
+    "60fb3ba7ed7ff46257fc3dad"
+  ]
+}
+
+###
+DELETE {{api}}/61008b50eb8318d8a5624bb8

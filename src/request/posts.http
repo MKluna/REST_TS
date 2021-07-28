@@ -1,0 +1,29 @@
+###
+
+GET http://localhost:4000/api/posts
+
+###
+
+POST http://localhost:4000/api/posts
+content-type: application/json
+
+{
+    "title": "post-test",
+    "url": "my-first-post",
+    "content":  "this is my first post",
+    "image": "https://images.pexels.com/photos/8697342/pexels-photo-8697342.jpeg?cs=srgb&dl=pexels-alena-beliaeva-8697342.jpg&fm=jpg"
+}
+
+###
+GET http://localhost:4000/api/posts/my-first-post
+
+###
+PUT http://localhost:4000/api/posts/my-first-post
+content-type: application/json
+
+{
+    "title": "update-post-test"
+}
+
+###
+DELETE http://localhost:4000/api/posts/my-first-post

@@ -11,5 +11,5 @@ Async / await**
 
 
 **Podes guiarte de este repo y de un canal de youtube muy recomendado**
-:tw-26a1: :tw-26a1:
+✔✔
 [Fazt Code](https://www.youtube.com/channel/UCMn28O1sQGochG94HdlthbA "Fazt Code")
